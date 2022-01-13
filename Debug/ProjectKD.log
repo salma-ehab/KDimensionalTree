@@ -1,0 +1,43 @@
+﻿  ProjectKD.cpp
+C:\Users\Salma\Source\Repos\ProjectKD\ProjectKD\ProjectKD.cpp(97,109): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\Salma\Source\Repos\ProjectKD\ProjectKD\ProjectKD.cpp(117,32): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\Salma\Source\Repos\ProjectKD\ProjectKD\KDTree.h(32,18): warning C4244: 'initializing': conversion from 'int' to 'E', possible loss of data
+          with
+          [
+              E=float
+          ]
+C:\Users\Salma\Source\Repos\ProjectKD\ProjectKD\KDTree.h(51): message : while compiling class template member function 'KDTree<float>::Node::Node(const KDTree<float>::Node &)'
+C:\Users\Salma\Source\Repos\ProjectKD\ProjectKD\KDTree.h(363): message : see reference to function template instantiation 'KDTree<float>::Node::Node(const KDTree<float>::Node &)' being compiled
+C:\Users\Salma\Source\Repos\ProjectKD\ProjectKD\KDTree.h(363): message : see reference to class template instantiation 'KDTree<float>::Node' being compiled
+C:\Users\Salma\Source\Repos\ProjectKD\ProjectKD\KDTree.h(362): message : while compiling class template member function 'KDTree<float>::KDTree(const KDTree<float> &)'
+C:\Users\Salma\Source\Repos\ProjectKD\ProjectKD\ProjectKD.cpp(132): message : see reference to function template instantiation 'KDTree<float>::KDTree(const KDTree<float> &)' being compiled
+C:\Users\Salma\Source\Repos\ProjectKD\ProjectKD\ProjectKD.cpp(94): message : see reference to class template instantiation 'KDTree<float>' being compiled
+C:\Users\Salma\Source\Repos\ProjectKD\ProjectKD\KDTree.h(159,21): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\Salma\Source\Repos\ProjectKD\ProjectKD\KDTree.h(155): message : while compiling class template member function 'float KDTree<char>::distanceSquared(E [],E [])'
+          with
+          [
+              E=char
+          ]
+C:\Users\Salma\Source\Repos\ProjectKD\ProjectKD\KDTree.h(207): message : see reference to function template instantiation 'float KDTree<char>::distanceSquared(E [],E [])' being compiled
+          with
+          [
+              E=char
+          ]
+C:\Users\Salma\Source\Repos\ProjectKD\ProjectKD\ProjectKD.cpp(183): message : see reference to class template instantiation 'KDTree<char>' being compiled
+C:\Users\Salma\Source\Repos\ProjectKD\ProjectKD\KDTree.h(159,21): warning C4244: 'initializing': conversion from 'E' to 'float', possible loss of data
+          with
+          [
+              E=int
+          ]
+C:\Users\Salma\Source\Repos\ProjectKD\ProjectKD\KDTree.h(155): message : while compiling class template member function 'float KDTree<int>::distanceSquared(E [],E [])'
+          with
+          [
+              E=int
+          ]
+C:\Users\Salma\Source\Repos\ProjectKD\ProjectKD\KDTree.h(207): message : see reference to function template instantiation 'float KDTree<int>::distanceSquared(E [],E [])' being compiled
+          with
+          [
+              E=int
+          ]
+C:\Users\Salma\Source\Repos\ProjectKD\ProjectKD\ProjectKD.cpp(9): message : see reference to class template instantiation 'KDTree<int>' being compiled
+  ProjectKD.vcxproj -> C:\Users\Salma\Source\Repos\ProjectKD\Debug\ProjectKD.exe
